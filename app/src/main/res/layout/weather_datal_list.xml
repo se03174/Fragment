@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="115dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="8dp"
+        app:srcCompat="@drawable/coldnoodle2" />
+
+    <TextView
+        android:id="@+id/Food_name"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_weight="1"
+        android:fontFamily="@font/notosansk_regular"
+        android:gravity="center"
+        android:text="냉면"
+        android:textSize="25dp" />
+
+</RelativeLayout>
